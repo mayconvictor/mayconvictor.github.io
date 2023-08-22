@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Html</title>
+</head>
+<body>
+  <h1>
+    formulário de pesquisa
+  </h1>
+</body>
+</html>
+ <form action="Travel reservation form">
+   <br>
+   
+   <br>
+   •Nome:
+   <br>
+   <input type="text" name="Nome" required placeholder="Nome" >
+   <br>
+   
+   <br>
+   •Email:
+   <br>
+   <input type="text" name="email addresss" required placeholder="Email">
+   <br>
+   
+   <br>
+   •Idade:
+   <br>
+   <input type="number" name="idade" required placeholder="Idade" min="1" max="120">
+   
+   <br>
+   
+   <br>
+   Qual opção melhor descreve sua função atual? 
+   <br>
+   <select> name="Turismo"> 
+   <option>Estudante</option>
+   <option>Trabalhando</option>
+   </select>
+   <br>
+   
+   <br>
+   Qual a probabilidade de você recomendar o freecodecamp a um amigo?
+   <br>
+   <input type="radio" name="cor" value="amarelo"/> Definitivamente
+   <br>
+   <input type="radio" name="cor" value="amarelo"/> Talvez
+   <br>
+   <input type="radio" name="cor" value="amarelo"/> Não tenho certeza
+   <br>
+   
+   <br>
+   
+   O que voce mais gosta no FCC?
+   <br>
+   <select> name="turismo">
+     <option>Quase nada</option>
+     <option>Tudo</option>
+   </select>
+   <br>
+   
+   <br>
+   
+   Coisas que devem ser melhoradas no futuro (marque as alternativas que se aplicam).
+   <br>
+   <input type="checkbox" name="cor" value="amarelo"/>Projetos front-end
+   <br>
+   <input type="checkbox" name="cor" value="vermelho"/>Projetos de back-end
+   <br>
+   <input type="checkbox" name="cor" value="azul"/>Visualização de dados
